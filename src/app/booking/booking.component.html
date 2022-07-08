@@ -1,0 +1,85 @@
+<div style="text-align:center;">
+    <h3> {{message}}</h3>
+ </div>
+<html>
+    <head>
+        <style>
+            .center {
+            display: block;
+            margin-left: 500px;
+            margin-right: auto;
+            margin-top: 10px;
+            margin-bottom: auto;
+            width: 50%;
+            background: content-box;
+        
+          }
+        </style>
+    </head>
+   
+    <body class="center">
+        
+    <form #f="ngForm"  (ngSubmit)="booking(f.value)">
+                        
+                            Name:
+                            <input type="text" ngModel placeholder="Name" name="name"  required>
+                           <br><br>
+                        
+                            Email:
+                            <input type="email"  ngModel placeholder="Email" name="email" required>
+                            <br><br>
+                      
+                            Mobile Number:
+                            <input type="number" ngModel   placeholder="Number"name=phone required>
+                            <br><br>
+                      
+                            Number Of Seats:
+                            <input type="number" ngModel placeholder="Number"name=noofseats required>
+                            <br><br>
+                        
+                            Age:
+                            <input type="number" ngModel placeholder="Number"name=age required>
+                            <br><br>
+
+                       
+                            Source To Destination:
+                            <select name="sourcetodestination" required ngModel>
+                              <option>select</option>
+                              <option *ngFor="let d of data">{{d.source}} To {{d.destination}}</option>
+                             
+                            </select>
+                            <br><br>
+                        
+                            Select Date:
+                            <input type="date" name="date" required ngModel>
+                            <br><br>
+                            BusType:
+                            <select name="bustype"  required ngModel>
+                                
+                                <option value="Ac">Ac</option>
+                                <option value="NonAc">NonAc</option>
+                             </select>   
+                             <br><br>
+
+                       
+                            
+                        
+                            PickUp:
+                            <select name="pick" required ngModel>
+                            
+                                <option value="Morning">Morning 9 Am</option>
+                                <option value="Afternoon">Afternoon 1 Pm</option>
+                                <option value="Evening">Evening 5 Pm</option>
+                                <option value="Night">Night 9 Pm</option>
+                             </select>   
+                             <br><br>
+                    
+                       
+            
+    
+                       
+                            <button >Book Your Tickets</button>
+                        
+    </form>
+    </body>
+    </html>

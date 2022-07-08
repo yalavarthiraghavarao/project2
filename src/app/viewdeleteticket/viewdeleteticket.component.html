@@ -1,0 +1,49 @@
+
+<div class="container">
+    <div class="container">
+        <div class="row col-mid-6 col-mid-offset-2 custyle">
+        <table class="table table-striped custab" >
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Age</th>
+                <th>Source To Destination</th>
+                <th>Bus Type</th>
+                <th>Pick</th>
+                <th>Date</th>
+                <th>No of Seats</th>
+                <th>Price</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody style="background:rgb(61, 0, 61)">
+            <tr *ngFor="let d of data"  style="color:white ;">
+                <td><span>{{d.id}}</span></td>
+                <td>{{d.name}}</td>
+                <td>{{d.email}}</td>
+                <td>{{d.phone}}</td>
+                <td>{{d.age}}</td>
+                <td>{{d.sourcetodestination}}</td>
+                <td>{{d.bustype}}</td>
+                <td>{{d.pick}}</td>
+                <td>{{d.date}}</td>
+                <td>{{d.noofseats}}</td>
+                <td>{{d.price}}</td>
+                <td><button (click)="deletebusbyid(d.id)">Delete</button></td>
+            </tr>
+        </tbody>
+        </table>
+       
+        </div>
+        
+    </div>
+    </div>
+    
+    
+    
+    
+    
+    

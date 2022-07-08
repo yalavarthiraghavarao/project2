@@ -1,0 +1,46 @@
+<div style="text-align: center;">
+    <h1>{{message}}</h1>
+</div>
+<html>
+<head>
+<style>
+    .center {
+	display: block;
+	margin-left: 500px;
+	margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: auto;
+	width: 50%;
+    background: content-box;
+  }
+</style>
+</head>
+<body class="center">
+<form  #f="ngForm"  (ngSubmit)="addbus(f.value)" >
+Bus Number:
+    <input type="number" ngModel name="busno" placeholder="Enter bus number">
+    <br><br>   
+Bus Name:
+<input type="text" ngModel name="busname" placeholder="Enter bus name">
+<br><br>
+Bus Type:
+<input type="text" ngModel name="bustype" placeholder="Ac/Non-Ac">
+<br><br>
+Source:
+<input type="text" ngModel name="source" placeholder="source">
+<br><br>
+Destination:
+<input type="text" ngModel name="destination" placeholder="destination">
+<br><br>
+Price:
+<input type="number" ngModel name="price" placeholder="price"><br><br>
+
+<button>Submit</button>
+
+</form><br>
+<a href="adminoperations" class="btn btn-warning">Go Back</a>
+</body>
+</html>
+
+
+<router-outlet></router-outlet>

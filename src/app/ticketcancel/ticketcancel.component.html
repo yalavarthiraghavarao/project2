@@ -1,0 +1,28 @@
+<div style="text-align:center;">
+    <h3> {{message}}</h3>
+ </div>
+
+<html>
+    <head>
+        <style>
+            .center {
+            display: block;
+            margin-left: 500px;
+            margin-right: auto;
+            margin-top: 100px;
+            margin-bottom: auto;
+            width: 50%;
+            background: content-box;
+        
+          }
+          </style>
+    </head>
+<body class="center">
+<form #f="ngForm" (ngSubmit)="Cancelticket(f.value)">
+Enter Id:
+<input type="number" name="id" ngModel><br><br>
+<button>Submit</button>
+
+</form>
+</body>
+</html>
