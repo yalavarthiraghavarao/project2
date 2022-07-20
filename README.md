@@ -1,27 +1,31 @@
-# BusReservationSystem
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.4.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<h1> Bus Reservation System</h1>
+<h2>Project Description</h2>
+The system should allow the users to reserve the Bus seats for 10 routes and in each route should allow 4 buses in the morning, 2 buses in the afternoon and 6 buses in the evening/night with Chair Type and Sleeping type and Non-AC Bus and AC Bus
+<h2>Technologies Used</h2>
+<ul>
+<li>Angular 10</li>
+<li>Spring Boot</li>
+<li>MySQL</li>
+<li>Maven</li>
+<li> JUnit</li>
+<li>Git</li>
+</ul>
+<h2>Features</h2>
+<ul>
+<li>Add Bus</li>
+<li>View All Busses</li>
+<li>DeleteBus</li>
+<li>Add Route</li>
+<li>Delete Route</li>
+<li>Book Ticket</li>
+<li>Cancel Ticket</li>
+</ul>
+<h2>Usage</h2>
+Download the source code from github and then extract the source code into your System by creating one folder after that you have to import the project into Spring Suite Tool and Visual Studio and run the application.
+<h2>Contributors</h2>
+<ol>
+<li>Y.Raghava Rao</li>
+  <li>S.HariPrasad</li>
+<li>S.Shabhaj</li>
+<li>K.Puja Devi</li>
+<ol>
