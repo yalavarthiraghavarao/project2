@@ -12,8 +12,12 @@ The system should allow the users to reserve the Bus seats for 10 routes and in 
 </ul>
 <h2>Features</h2>
 <ul>
+<li>Customer Registration</li>
+<li>Customer Login</li>
+<li>Admin Login</li>
 <li>Add Bus</li>
 <li>View All Busses</li>
+<li>Update Bus</li>
 <li>DeleteBus</li>
 <li>Add Route</li>
 <li>Delete Route</li>
@@ -24,8 +28,8 @@ The system should allow the users to reserve the Bus seats for 10 routes and in 
 Download the source code from github and then extract the source code into your System by creating one folder after that you have to import the project into Spring Suite Tool and Visual Studio and run the application.
 <h2>Contributors</h2>
 <ol>
-<li>Y.Raghava Rao</li>
+<li>Y.RaghavaRao</li>
   <li>S.HariPrasad</li>
 <li>S.Shabhaj</li>
-<li>K.Puja Devi</li>
+<li>K.PujaDevi</li>
 <ol>
